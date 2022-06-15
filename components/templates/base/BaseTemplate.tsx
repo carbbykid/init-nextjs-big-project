@@ -3,7 +3,7 @@ export interface IBaseTemplate {
   sampleTextProp: string;
 }
 
-const BaseTemplate = ({ sampleTextProp }: IBaseTemplate): JSX.Element => {
+const BaseTemplate = ({ sampleTextProp }: IBaseTemplate) => {
   return <div className={styles.container}>{sampleTextProp}</div>;
 };
 
