@@ -15,7 +15,7 @@ const CatCard = ({ tag, title, body, author, time }: ICatCard) => {
       <div className={styles.card}>
         <div className={styles.card__header}>
           <Image
-            src="/time-cat.jpeg"
+            src="/time-cat.jpg"
             alt="card__image"
             className={styles.card__image}
             width="600"
